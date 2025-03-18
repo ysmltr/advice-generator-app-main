@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 .card{
-    width: 550px;
+    width: 500px;
     max-width: 90%;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ body{
 }
 
 .advice-id{
-    color: #52ffa8;
+    color: var(--Neon-Green);
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 3px;
@@ -59,14 +59,14 @@ body{
 
 #advice-text{
     width: 85%;
-    color: #cee3e9;
+    color: var(--LightCyan);
     font-size: 1.7rem;
     font-weight: 800;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 #advice-text::after{
@@ -79,7 +79,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #52ffa8;
+    background-color: var(--Neon-Green);
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -89,7 +89,7 @@ body{
 }
 
 #result-btn:hover{
-    box-shadow: 0rem 0rem 1rem #52ffa8;
+    box-shadow: 0rem 0rem 1rem var(--Neon-Green);
     cursor: pointer;
     transition: 0.5s;
 
