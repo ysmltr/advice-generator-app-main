@@ -11,7 +11,7 @@ function getAdvice() {
         .then(response => response.json())
         .then(adviceData => {
             const adviceObj = adviceData.slip;
-            adviceResult.innerHTML = `<p>${adviceObj.advice}</p>`;
+            adviceResult.innerHTML = `<p>${adviceObj.advice}<br></p>`;
             adviceNum.innerHTML = `${adviceObj.id}`;
         })
         .catch(error => {
